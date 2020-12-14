@@ -1,43 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="5" time="111.32053">
-    <testcase classname="Acesso ao Sistema" name="Acesso ao sistema com sucesso" time="84.576078">
-        <failure message="org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=87.0.4280.88)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'&#10;System info: host: 'DESKTOP-QD4OM51', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\paulo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 77e2fce54ae245d83ede78d98df9535d&#10;*** Element info: {Using=css selector, value=#Email}&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)&#13;&#10;&#9;at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at teststeps.AcessoAoSistemaTestSteps.informar_o_email_de_acesso(AcessoAoSistemaTestSteps.java:35)&#13;&#10;&#9;at ✽.Informar o email de acesso &quot;sergio.coti@gmail.com&quot;(funcionalidades/AcessoAoSistema.feature:11)&#13;&#10;"><![CDATA[Dado Acessar a página de autenticação de usuários...........................passed
-E Informar o email de acesso "sergio.coti@gmail.com"........................failed
-E Informar a senha de acesso "@S3rg10"......................................skipped
-Quando Solicitar o acesso ao sistema........................................skipped
-Então Sistema autentica o usuário com sucesso...............................skipped
-E Aplicação é finalizada....................................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=87.0.4280.88)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-QD4OM51', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\paulo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 77e2fce54ae245d83ede78d98df9535d
-*** Element info: {Using=css selector, value=#Email}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at teststeps.AcessoAoSistemaTestSteps.informar_o_email_de_acesso(AcessoAoSistemaTestSteps.java:35)
-	at ✽.Informar o email de acesso "sergio.coti@gmail.com"(funcionalidades/AcessoAoSistema.feature:11)
-]]></failure>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="67.07898">
+    <testcase classname="Acesso ao Sistema" name="Acesso ao sistema com sucesso" time="22.072399">
+        <system-out><![CDATA[Dado Acessar a página de autenticação de usuários...........................passed
+E Informar o email de acesso "sergio.coti@gmail.com"........................passed
+E Informar a senha de acesso "@S3rg10"......................................passed
+Quando Solicitar o acesso ao sistema........................................passed
+Então Sistema autentica o usuário com sucesso...............................passed
+E Aplicação é finalizada....................................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Acesso ao Sistema" name="Acesso negado de usuário" time="15.554241">
+    <testcase classname="Acesso ao Sistema" name="Acesso negado de usuário" time="10.888668">
         <system-out><![CDATA[Dado Acessar a página de autenticação de usuários...........................passed
 E Informar o email de acesso "teste@gmail.com"..............................passed
 E Informar a senha de acesso "teste"........................................passed
@@ -46,7 +18,7 @@ Então Sistema exibe a mensagem "Acesso Negado"..............................pas
 E Aplicação é finalizada....................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Acesso ao Sistema" name="Validação de campos obrigatórios" time="11.180361">
+    <testcase classname="Acesso ao Sistema" name="Validação de campos obrigatórios" time="11.537997">
         <system-out><![CDATA[Dado Acessar a página de autenticação de usuários...........................passed
 Quando Solicitar o acesso ao sistema........................................passed
 Então Sistema informa que o campo email é de preenchimento obrigatório......passed
@@ -54,26 +26,26 @@ E Sistema informa que o campo senha é de preenchimento obrigatório..........pa
 E Aplicação é finalizada....................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cadastro de Usuário" name="Cadastro de conta de usuário com sucesso" time="0.007005">
-        <skipped><![CDATA[Dado Acessar a página de cadastro de conta de usuário.......................pending
-E Informar o nome do usuário "Sergio da Silva Mendes".......................skipped
-E Informar o email do usuário "sergio.coti@gmail.com".......................skipped
-E Informar a senha do usuário "@Coti123"....................................skipped
-E Confirmar a senha do usuário "@Coti123"...................................skipped
-E Informar a foto do usuário "foto_usuario.jpg".............................skipped
-Quando Solicitar a realização do cadastro...................................skipped
-Então Sistema informa que o usuário foi cadastrado com sucesso..............skipped
-]]></skipped>
+    <testcase classname="Cadastro de Usuário" name="Cadastro de conta de usuário com sucesso" time="11.536471">
+        <system-out><![CDATA[Dado Acessar a página de cadastro de conta de usuário.......................passed
+E Informar o nome do usuário "Sergio da Silva Mendes".......................passed
+E Informar o email do usuário "sergio.coti@gmail.com".......................passed
+E Informar a senha do usuário "@Coti123"....................................passed
+E Confirmar a senha do usuário "@Coti123"...................................passed
+E Informar a foto do usuário "foto_usuario.jpg".............................passed
+Quando Solicitar a realização do cadastro...................................passed
+Então Sistema informa que o usuário foi cadastrado com sucesso..............passed
+]]></system-out>
     </testcase>
-    <testcase classname="Cadastro de Usuário" name="Cadastro de conta de usuário com sucesso 2" time="0.002845">
-        <skipped><![CDATA[Dado Acessar a página de cadastro de conta de usuário.......................pending
-E Informar o nome do usuário "Ana Paula da Silva"...........................skipped
-E Informar o email do usuário "anapaula@gmail.com"..........................skipped
-E Informar a senha do usuário "@Teste123"...................................skipped
-E Confirmar a senha do usuário "@Teste123"..................................skipped
-E Informar a foto do usuário "foto_usuario.jpg".............................skipped
-Quando Solicitar a realização do cadastro...................................skipped
-Então Sistema informa que o usuário foi cadastrado com sucesso..............skipped
-]]></skipped>
+    <testcase classname="Cadastro de Usuário" name="Cadastro de conta de usuário com sucesso 2" time="11.043445">
+        <system-out><![CDATA[Dado Acessar a página de cadastro de conta de usuário.......................passed
+E Informar o nome do usuário "Ana Paula da Silva"...........................passed
+E Informar o email do usuário "anapaula@gmail.com"..........................passed
+E Informar a senha do usuário "@Teste123"...................................passed
+E Confirmar a senha do usuário "@Teste123"..................................passed
+E Informar a foto do usuário "foto_usuario.jpg".............................passed
+Quando Solicitar a realização do cadastro...................................passed
+Então Sistema informa que o usuário foi cadastrado com sucesso..............passed
+]]></system-out>
     </testcase>
 </testsuite>
